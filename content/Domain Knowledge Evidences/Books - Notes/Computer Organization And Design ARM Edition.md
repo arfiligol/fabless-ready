@@ -4,19 +4,6 @@ annotation-target: Books/In_Praise_of_Computer_Organization_and_D.pdf
 
 
 
->%%
->```annotation-json
->{"created":"2025-01-29T19:59:56.079Z","updated":"2025-01-29T19:59:56.079Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":53597,"end":53776},{"type":"TextQuoteSelector","exact":"Today’s  science  fiction suggests tomorrow’s killer applications: already on their way are glasses that augment reality, the cashless society, and cars that can drive themselves.","prefix":"  computers  are  omnipresent.  ","suffix":" 1.1 Introduction 5Traditional C"}]}]}
->```
->%%
->*%%PREFIX%%computers  are  omnipresent.%%HIGHLIGHT%% ==Today’s  science  fiction suggests tomorrow’s killer applications: already on their way are glasses that augment reality, the cashless society, and cars that can drive themselves.== %%POSTFIX%%1.1 Introduction 5Traditional C*
->%%LINK%%[[#^dat06jfhlp|show annotation]]
->%%COMMENT%%
->
->%%TAGS%%
->
-^dat06jfhlp
-
 
 >%%
 >```annotation-json
@@ -335,3 +322,173 @@ annotation-target: Books/In_Praise_of_Computer_Organization_and_D.pdf
 >%%TAGS%%
 >
 ^wbw2k5ss2cb
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-05T10:28:28.332Z","text":"簡單介紹 Datapath 與 Control 各自的職責。","updated":"2025-02-05T10:28:28.332Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":95496,"end":95670},{"type":"TextQuoteSelector","exact":"he datapath performs the arithmetic operations, and control tells the datapath, memory, and I/O devices what to do according to the wishes of the instructions of the program.","prefix":"wn and brain of the processor. T","suffix":" Chapter 4 explains the datapath"}]}]}
+>```
+>%%
+>*%%PREFIX%%wn and brain of the processor. T%%HIGHLIGHT%% ==he datapath performs the arithmetic operations, and control tells the datapath, memory, and I/O devices what to do according to the wishes of the instructions of the program.== %%POSTFIX%%Chapter 4 explains the datapath*
+>%%LINK%%[[#^yhk6pnqyo7|show annotation]]
+>%%COMMENT%%
+>簡單介紹 Datapath 與 Control 各自的職責。
+>%%TAGS%%
+>
+^yhk6pnqyo7
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-07T02:14:13.308Z","text":"RAM 以及 DRAM 的解釋。","updated":"2025-02-07T02:14:13.308Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":95889,"end":96111},{"type":"TextQuoteSelector","exact":"The  memory  is  where  the  programs are kept when they are running; it also contains the data needed by the running  programs.  The  memory  is  built  from  DRAM  chips.  DRAM  stands  for  dynamic random access memory.","prefix":"  thereby  supplying  512 MiB.  ","suffix":" Multiple DRAMs are used togethe"}]}]}
+>```
+>%%
+>*%%PREFIX%%thereby  supplying  512 MiB.%%HIGHLIGHT%% ==The  memory  is  where  the  programs are kept when they are running; it also contains the data needed by the running  programs.  The  memory  is  built  from  DRAM  chips.  DRAM  stands  for  dynamic random access memory.== %%POSTFIX%%Multiple DRAMs are used togethe*
+>%%LINK%%[[#^93lmg2rvqgq|show annotation]]
+>%%COMMENT%%
+>RAM 以及 DRAM 的解釋。
+>%%TAGS%%
+>
+^93lmg2rvqgq
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-07T02:14:36.145Z","text":"DRAM 的特點。","updated":"2025-02-07T02:14:36.145Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":96197,"end":96421},{"type":"TextQuoteSelector","exact":"n contrast to sequential access memories, such as magnetic tapes, the RAM portion of the term DRAM means that memory accesses  take  basically  the  same  amount  of  time  no  matter  what  portion  of  the  memory is read.","prefix":"uctions and data of a program. I","suffix":"Descending into the depths of an"}]}]}
+>```
+>%%
+>*%%PREFIX%%uctions and data of a program. I%%HIGHLIGHT%% ==n contrast to sequential access memories, such as magnetic tapes, the RAM portion of the term DRAM means that memory accesses  take  basically  the  same  amount  of  time  no  matter  what  portion  of  the  memory is read.== %%POSTFIX%%Descending into the depths of an*
+>%%LINK%%[[#^rhoos7xuvm|show annotation]]
+>%%COMMENT%%
+>DRAM 的特點。
+>%%TAGS%%
+>
+^rhoos7xuvm
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-09T05:04:27.521Z","text":"Cache Memory 的用意。","updated":"2025-02-09T05:04:27.521Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":100012,"end":100102},{"type":"TextQuoteSelector","exact":"Cache memory consists of a small, fast memory that acts as a buffer for the DRAM memory.  ","prefix":"xit.com) 1.4 Under the Covers 21","suffix":"(The  nontechnical  definition  "}]}]}
+>```
+>%%
+>*%%PREFIX%%xit.com) 1.4 Under the Covers 21%%HIGHLIGHT%% ==Cache memory consists of a small, fast memory that acts as a buffer for the DRAM memory.== %%POSTFIX%%(The  nontechnical  definition*
+>%%LINK%%[[#^slnx7cobma|show annotation]]
+>%%COMMENT%%
+>Cache Memory 的用意。
+>%%TAGS%%
+>
+^slnx7cobma
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-09T05:05:00.014Z","text":"Cache Memory 使用的技術與 DRAM 不同，Cache 使用 Static Random Access Memory（SRAM）","updated":"2025-02-09T05:05:00.014Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":100188,"end":100275},{"type":"TextQuoteSelector","exact":"Cache is built using a different memory technology, static random access memory (SRAM).","prefix":"  place  for  hiding  things.)  ","suffix":" SRAM is faster but less dense, "}]}]}
+>```
+>%%
+>*%%PREFIX%%place  for  hiding  things.)%%HIGHLIGHT%% ==Cache is built using a different memory technology, static random access memory (SRAM).== %%POSTFIX%%SRAM is faster but less dense,*
+>%%LINK%%[[#^mz17qeezuzk|show annotation]]
+>%%COMMENT%%
+>Cache Memory 使用的技術與 DRAM 不同，Cache 使用 Static Random Access Memory（SRAM）
+>%%TAGS%%
+>
+^mz17qeezuzk
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-09T05:06:18.281Z","text":"給出 Instruction Set Architecture（ISA）的說明。","updated":"2025-02-09T05:06:18.281Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":101222,"end":101496},{"type":"TextQuoteSelector","exact":"One  of  the  most  important  abstractions  is  the  interface  between  the  hardware   and  the  lowest-level  software.  Because  of  its  importance,  it  is  given  a  special   name:  the  instruction  set  architecture,  or  simply  architecture,  of  a  computer.  ","prefix":"rove  design  is  abstraction.  ","suffix":"The instruction set architecture"}]}]}
+>```
+>%%
+>*%%PREFIX%%rove  design  is  abstraction.%%HIGHLIGHT%% ==One  of  the  most  important  abstractions  is  the  interface  between  the  hardware   and  the  lowest-level  software.  Because  of  its  importance,  it  is  given  a  special   name:  the  instruction  set  architecture,  or  simply  architecture,  of  a  computer.== %%POSTFIX%%The instruction set architecture*
+>%%LINK%%[[#^7tro7o3djsl|show annotation]]
+>%%COMMENT%%
+>給出 Instruction Set Architecture（ISA）的說明。
+>%%TAGS%%
+>
+^7tro7o3djsl
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-09T05:17:31.066Z","text":"Application Binary Interface（ABI）Application Programmer 需要知道的（由 basic instruction set & operating system interface 組成）","updated":"2025-02-09T05:17:31.066Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":101918,"end":102106},{"type":"TextQuoteSelector","exact":"The  combination  of  the  basic  instruction  set  and  the  operating  system  interface  provided  for  application  programmers  is  called  the  application  binary  interface  (ABI).","prefix":"  worry  about  such  details.  ","suffix":"An instruction set architecture "}]}]}
+>```
+>%%
+>*%%PREFIX%%worry  about  such  details.%%HIGHLIGHT%% ==The  combination  of  the  basic  instruction  set  and  the  operating  system  interface  provided  for  application  programmers  is  called  the  application  binary  interface  (ABI).== %%POSTFIX%%An instruction set architecture*
+>%%LINK%%[[#^acpw0mm4cfm|show annotation]]
+>%%COMMENT%%
+>Application Binary Interface（ABI）Application Programmer 需要知道的（由 basic instruction set & operating system interface 組成）
+>%%TAGS%%
+>
+^acpw0mm4cfm
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-09T05:30:32.642Z","text":"總結抽象層對 Hardware & Software 之間的作用，並描述 Implementation 之於 Hardware 的意義。","updated":"2025-02-09T05:30:32.642Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":103201,"end":103613},{"type":"TextQuoteSelector","exact":"Both hardware and software consist of hierarchical layers using abstraction, with each lower layer hiding details from the level above. One key interface between  the  levels  of  abstraction  is  the  instruction  set  architecture—the interface  between  the  hardware  and  low-level  software.  This  abstract  interface enables many implementations of varying cost and performance to run identical software.","prefix":"y portability across computers. ","suffix":"The BIG PictureA Safe Place for "}]}]}
+>```
+>%%
+>*%%PREFIX%%y portability across computers.%%HIGHLIGHT%% ==Both hardware and software consist of hierarchical layers using abstraction, with each lower layer hiding details from the level above. One key interface between  the  levels  of  abstraction  is  the  instruction  set  architecture—the interface  between  the  hardware  and  low-level  software.  This  abstract  interface enables many implementations of varying cost and performance to run identical software.== %%POSTFIX%%The BIG PictureA Safe Place for*
+>%%LINK%%[[#^1ozpmwfmaqa|show annotation]]
+>%%COMMENT%%
+>總結抽象層對 Hardware & Software 之間的作用，並描述 Implementation 之於 Hardware 的意義。
+>%%TAGS%%
+>
+^1ozpmwfmaqa
+
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-09T05:35:37.705Z","text":"這個段落給予充足的 \"Secondary Memory\" 的說明。（包含 Main Memory，只是 Secondary 對我來說比較陌生）","updated":"2025-02-09T05:35:37.705Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":104412,"end":104713},{"type":"TextQuoteSelector","exact":"To  distinguish  between  the  volatile  memory  used  to  hold  data  and  programs  while  they  are  running  and  this  nonvolatile  memory  used  to  store  data  and  programs between runs, the term main memory or primary memory is used for the  former,  and  secondary  memory  for  the  latter","prefix":"olatile. 1.4 Under the Covers 23","suffix":".  Secondary  memory  forms  the"}]}]}
+>```
+>%%
+>*%%PREFIX%%olatile. 1.4 Under the Covers 23%%HIGHLIGHT%% ==To  distinguish  between  the  volatile  memory  used  to  hold  data  and  programs  while  they  are  running  and  this  nonvolatile  memory  used  to  store  data  and  programs between runs, the term main memory or primary memory is used for the  former,  and  secondary  memory  for  the  latter== %%POSTFIX%%.  Secondary  memory  forms  the*
+>%%LINK%%[[#^lk0z1k6sbc8|show annotation]]
+>%%COMMENT%%
+>這個段落給予充足的 "Secondary Memory" 的說明。（包含 Main Memory，只是 Secondary 對我來說比較陌生）
+>%%TAGS%%
+>
+^lk0z1k6sbc8
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-09T05:45:33.083Z","text":"講述 Network 之於 Computers 的重要性。","updated":"2025-02-09T05:45:33.083Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":105941,"end":106158},{"type":"TextQuoteSelector","exact":"Just as the processor shown in Figure 1.5 is connected to memory and I/O devices, networks interconnect  whole  computers,  allowing  computer  users  to  extend  the  power  of  computing by including communication. ","prefix":"s computers: computer networks. ","suffix":"Networks have become so popular "}]}]}
+>```
+>%%
+>*%%PREFIX%%s computers: computer networks.%%HIGHLIGHT%% ==Just as the processor shown in Figure 1.5 is connected to memory and I/O devices, networks interconnect  whole  computers,  allowing  computer  users  to  extend  the  power  of  computing by including communication.== %%POSTFIX%%Networks have become so popular*
+>%%LINK%%[[#^rqqdrfdimkm|show annotation]]
+>%%COMMENT%%
+>講述 Network 之於 Computers 的重要性。
+>%%TAGS%%
+>
+^rqqdrfdimkm
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-09T06:11:12.246Z","text":"有別於 LAN，WAN 通常 Based on Optical Fibers。\nEthernet is an example of LAN。","updated":"2025-02-09T06:11:12.246Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":108204,"end":108404},{"type":"TextQuoteSelector","exact":"Wide  area  networks  cross  continents  and  are  the  backbone  of  the  Internet, which supports the web. They are typically based on optical fibers and are leased from telecommunication companies.","prefix":"outing services and  security.  ","suffix":"Networks  have  changed  the  fa"}]}]}
+>```
+>%%
+>*%%PREFIX%%outing services and  security.%%HIGHLIGHT%% ==Wide  area  networks  cross  continents  and  are  the  backbone  of  the  Internet, which supports the web. They are typically based on optical fibers and are leased from telecommunication companies.== %%POSTFIX%%Networks  have  changed  the  fa*
+>%%LINK%%[[#^ftmursnrje|show annotation]]
+>%%COMMENT%%
+>有別於 LAN，WAN 通常 Based on Optical Fibers。
+>Ethernet is an example of LAN。
+>%%TAGS%%
+>
+^ftmursnrje
+
+
+>%%
+>```annotation-json
+>{"created":"2025-02-09T06:38:39.259Z","text":"IEEE 有訂定一個標準協議 for Wireless technologies。","updated":"2025-02-09T06:38:39.259Z","document":{"title":"","link":[{"href":"urn:x-pdf:09a4b7a771b4fc2f2af6e149a82276c9"},{"href":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf"}],"documentFingerprint":"09a4b7a771b4fc2f2af6e149a82276c9"},"uri":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","target":[{"source":"vault:/Domain Knowledge Evidences/Books/In_Praise_of_Computer_Organization_and_D.pdf","selector":[{"type":"TextPositionSelector","start":110291,"end":110450},{"type":"TextQuoteSelector","exact":"Currently available wireless technologies, called by the IEEE standard name 802.11, allow for transmission rates from 1 to nearly 100 million bits per second. ","prefix":" to an explosion in deployment. ","suffix":"Wireless technology is quite a b"}]}]}
+>```
+>%%
+>*%%PREFIX%%to an explosion in deployment.%%HIGHLIGHT%% ==Currently available wireless technologies, called by the IEEE standard name 802.11, allow for transmission rates from 1 to nearly 100 million bits per second.== %%POSTFIX%%Wireless technology is quite a b*
+>%%LINK%%[[#^79phd1ah9bx|show annotation]]
+>%%COMMENT%%
+>IEEE 有訂定一個標準協議 for Wireless technologies。
+>%%TAGS%%
+>
+^79phd1ah9bx
